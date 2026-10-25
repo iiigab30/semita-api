@@ -5,7 +5,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-app.use(cors({https://iiigab30.github.io/semita-web/}));
+app.use(cors({https://iiigab30.github.io/semita-web}));
 app.use(express.json());
 
 // Clave que debe enviar el Arduino en el header "x-api-key" (se define en Render como variable de entorno)
